@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.13.35825.156 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkvelonCodingTask", "AkvelonCodingTask.csproj", "{25C0B9B7-1A00-49AD-974D-943ECD492867}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzzApp", "FizzBuzzApp.csproj", "{25C0B9B7-1A00-49AD-974D-943ECD492867}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzzApp.Tests", "..\FizzBuzzApp.Tests\FizzBuzzApp.Tests.csproj", "{BBAE8EB0-20E6-4301-86E3-087D3058D85A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{25C0B9B7-1A00-49AD-974D-943ECD492867} = {25C0B9B7-1A00-49AD-974D-943ECD492867}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +20,10 @@ Global
 		{25C0B9B7-1A00-49AD-974D-943ECD492867}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{25C0B9B7-1A00-49AD-974D-943ECD492867}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{25C0B9B7-1A00-49AD-974D-943ECD492867}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBAE8EB0-20E6-4301-86E3-087D3058D85A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBAE8EB0-20E6-4301-86E3-087D3058D85A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBAE8EB0-20E6-4301-86E3-087D3058D85A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBAE8EB0-20E6-4301-86E3-087D3058D85A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
